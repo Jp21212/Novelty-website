@@ -1,25 +1,43 @@
-skipidi{
-    Border: 2px solid blue;
-    border-width: 3px;
-    display: flex;
-    height: 30vh;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px;
-    justify-content: flex-start;
-    background-color: red;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+.skibidi{
+    border: 1px solid black;
+    border-width: 5px;
+        display: flex;
+        font-size: 25px;
+       height: 50vh;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;  
+        background-color: red;  
+        color: white;
+        img {
+            width: 35%;
+            height: auto;
+          }
 }
-uncle{
-    border: 1px solid purple;
-    border-width: 3px
-    display;flex:
-    height: 50px; 
-    flex-direction: column;
-    margin: 0px
-    align-items: center;
-    justify-content: flex-start
-    background-color: red;
-    color: blue
+.uncle{
+     border: 1px solid black;
+    border-width: 5px;
+        display: flex;
+       height: 50vh;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;  
+        background-color: blue;  
+        color:white;
+}
+
+.pencil{
+    border: 1px solid black;
+    border-width: 5px;
+        display: flex;
+       height: 200vh;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;  
+        background-color: purple;  
+        color:white;
+        margin-bottom: auto;
 }
